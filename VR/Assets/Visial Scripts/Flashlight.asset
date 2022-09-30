@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Flashlight
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":588.0,"y":40.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"key":{"$content":"Space","$type":"UnityEngine.KeyCode"},"action":{"$content":"Down","$type":"Unity.VisualScripting.PressState"}},"position":{"x":49.0,"y":-38.0},"guid":"80631bed-547d-45fa-945f-4bdbede9f850","$version":"A","$type":"Unity.VisualScripting.OnKeyboardInput","$id":"9"},{"startOn":false,"defaultValues":{},"position":{"x":309.0,"y":-39.0},"guid":"fe0cd31c-f825-42b0-8251-8738efade89a","$version":"A","$type":"Unity.VisualScripting.ToggleValue","$id":"11"},{"chainable":false,"member":{"name":"enabled","parameterTypes":null,"targetType":"UnityEngine.Light","targetTypeName":"UnityEngine.Light","$version":"A"},"defaultValues":{"target":null,"input":{"$content":false,"$type":"System.Boolean"}},"position":{"x":610.0,"y":-45.0},"guid":"707f1152-da0b-43bf-8a7b-19f47d39d5d6","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"13"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"toggle","guid":"3f1fcb0a-ee9a-46b0-8378-6405f8ec8fbf","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"turnedOn","destinationUnit":{"$ref":"13"},"destinationKey":"assign","guid":"7ee932bd-5b94-48d6-8e80-89dcc69d9df2","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"turnedOff","destinationUnit":{"$ref":"13"},"destinationKey":"assign","guid":"8321a755-f8c6-4bda-b16d-1b988c39750a","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"isOn","destinationUnit":{"$ref":"13"},"destinationKey":"input","guid":"5cf7a9d3-e7dd-4839-be5b-658798d78f9b","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
